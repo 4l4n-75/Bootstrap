@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+     box-sizing: border-box;
+     background: none;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+     color: rgb(240, 240, 240);
+}
+body{
+    background-image: url(../img/vintage-wallpaper.png);
+}
+.ingreso{
+    width: 20%;
+    margin: 150px auto;
+    /*background: red;*/
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow:0px 1px 2px 3px rgba(233, 233, 233, 0.308);
+}
+.ingreso form{
+    background: rgba(99, 99, 99, 0.377);
+    border-radius: 15px;
+    padding: 20px;
+}
+form fieldset{
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+fieldset legend{
+    font-size: 30px;
+    padding: 10px;
+    margin: 0px 10px;
+}
+fieldset .foto{
+    display: flex;
+    justify-content: center;
+}
+fieldset .foto img{
+    width: 60px;
+}
+fieldset input{
+    height: 25px;
+    border-radius: 5px;
+    background: rgba(156, 154, 154, 0.966);
+    color: rgba(2, 2, 2, 0.699);
+    font-size: 16px;
+    border-style: none;
+    margin: 5px;
+}
+fieldset .acceso{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+}
+.acceso input{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 0px 5px;
+    color: #000;    
+}
+.acceso input:hover{
+    background: rgba(65, 64, 64, 0.63);
+    border-style: ridge;
+    cursor: pointer;
+    color: cornsilk;
+}
+.acceso a{
+    margin: 5px;
+    color: cornsilk;
+    font-size: 14px;
+    font-family: cursive;
+    text-decoration: none;
+}
+.acceso a:hover{
+    color: darkcyan;
+}

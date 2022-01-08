@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+     box-sizing: border-box;
+     background: none;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+     color: rgb(240, 240, 240);
+}
+body{
+    background-image: url(../img/vintage-wallpaper.png);
+    display: flex;
+    justify-content: center;
+}
+form{
+    background: rgba(99, 99, 99, 0.377);
+    border-radius: 15px;
+    margin: 20px;
+    padding: 10px;
+    width: 35%; /*Ancho del formulario*/
+    box-shadow:0px 1px 2px 3px rgba(233, 233, 233, 0.308);
+}
+form fieldset{ 
+    border-radius: 10px;
+    margin-bottom: 10px ;
+    display: flex;
+    flex-direction: column;
+}
+form .logo{
+    text-align: center;
+}
+.logo img{
+    width: 60px;
+}
+form fieldset legend{
+    font-size: 30px;
+    margin: 0px 10px;
+    padding: 10px;
+}
+fieldset .datos_personales{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.datos_personales input,select{
+    height: 25px;
+    border-radius: 5px;
+    background: rgba(156, 154, 154, 0.966);
+    color: rgba(2, 2, 2, 0.699);
+    font-size: 20px;
+    margin: 5px;
+    border-style: none;
+}
+select option{
+    border-radius: 5px;
+}
+fieldset .complemento{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.complemento fieldset{
+    margin: 0px 5px 5px 5px;
+    padding: 10px;
+    flex-basis: auto;
+}
+.horario select{
+    border-radius: 5px;
+    background: rgba(156, 154, 154, 0.966);
+    height: 25px;
+    font-size: 16px;
+    margin: 5px 20px;
+    color: #000
+}
+.complemento .foto{
+  /* no hay que modificar aquí*/
+}
+form .enviar{
+    text-align: center;
+}
+form .enviar input{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 0px 5px;
+    color: #000;  
+    height: 25px;
+    border-radius: 5px;
+    background: rgba(156, 154, 154, 0.966);
+    font-size: 16px;
+}
+.enviar input:hover{
+    background: rgba(65, 64, 64, 0.63);
+    border-style: ridge;
+    cursor: pointer;
+    color: cornsilk;
+}

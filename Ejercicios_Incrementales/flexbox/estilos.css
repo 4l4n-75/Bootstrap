@@ -1,0 +1,48 @@
+body{
+    background: url(./img/congruent_pentagon.png);
+}
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.header a{
+    font-size: 22px;
+    color: blanchedalmond;
+    margin-left: 22px;
+}
+.header a:hover{
+    color: cadetblue;
+}
+.atributos{
+    display: flex;
+    flex-direction: column;
+}
+.atributos a{
+    margin-left: 5px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: rgb(255, 250, 250);
+}
+.atributos i{
+    margin-left: 5px;
+}
+.fotos{
+    display: flex;
+    /* flex-direction: row; */
+    flex-flow: row wrap;
+}
+.fotos .foto{
+    width: 220px;
+    margin: 5px;
+    border-radius: 10px;
+    background: rgba(216, 216, 141, 0.747);
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.foto img{
+    width: 100px;
+}

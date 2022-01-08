@@ -1,0 +1,26 @@
+{
+    "presets": ["latest", "react", "stage-0"],
+    "plugins": [
+        "transform-runtime"
+    ],
+    "env": {
+        "production":{
+            "plugins": [
+                "transform-react-constant-elements"
+            ]
+        }
+    }
+}
+module.exports = {
+    ...
+    module:{
+        rules:[
+            {
+                test:/\.jsx?$/,
+                loader: 'babel-loader',
+                exclude: /(node_modules)/,
+            },
+        ],
+    },
+    ...
+};
